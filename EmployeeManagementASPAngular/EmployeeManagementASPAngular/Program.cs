@@ -10,16 +10,18 @@ builder.Services.AddControllers();
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
 
-//builder.Services.AddDbContext<EmployeeContext>(options =>
-//options.UseMySql(builder.Configuration.GetConnectionString("MySqlConnectionString")));
 // Register the DbContext with the connection string from appsettings.json
-builder.Services.AddDbContext<EmployeeContext>(options =>
-    options.UseMySql(builder.Configuration.GetConnectionString("MySqlConnectionString"),
-        new MySqlServerVersion(new Version(8, 0, 21)))); // Replace with your MySQL version
+//builder.Services.AddDbContext<EmployeeContext>(options =>
+//    options.UseMySql(builder.Configuration.GetConnectionString("MySqlConnectionString"),
+//        new MySqlServerVersion(new Version(8, 0, 21)))); // Replace with your MySQL version
 
-builder.Services.AddDbContext<ManagerContext>(options =>
-    options.UseMySql(builder.Configuration.GetConnectionString("MySqlConnectionString"),
-        new MySqlServerVersion(new Version(8, 0, 21))));
+//builder.Services.AddDbContext<ManagerContext>(options =>
+//    options.UseMySql(builder.Configuration.GetConnectionString("MySqlConnectionString"),
+//        new MySqlServerVersion(new Version(8, 0, 21))));
+
+builder.Services.AddDbContext<EmployeeContext>(options => options.UseSqlServer(builder.Configuration.GetConnectionString("DefaultConnection")));
+
+builder.Services.AddDbContext<ManagerContext>(options => options.UseSqlServer(builder.Configuration.GetConnectionString("DefaultConnection")));
 
 
 var app = builder.Build();

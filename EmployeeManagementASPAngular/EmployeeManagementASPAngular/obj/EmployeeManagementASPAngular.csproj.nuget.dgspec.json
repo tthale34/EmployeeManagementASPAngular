@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\wamp64\\www\\tthale\\EmployeeManagementASPAngular\\EmployeeManagementASPAngular\\EmployeeManagementASPAngular.csproj": {}
+    "C:\\wamp64\\www\\EmployeeManagementASPAngular\\EmployeeManagementASPAngular\\EmployeeManagementASPAngular\\EmployeeManagementASPAngular.csproj": {}
   },
   "projects": {
-    "C:\\wamp64\\www\\tthale\\EmployeeManagementASPAngular\\EmployeeManagementASPAngular\\EmployeeManagementASPAngular.csproj": {
+    "C:\\wamp64\\www\\EmployeeManagementASPAngular\\EmployeeManagementASPAngular\\EmployeeManagementASPAngular\\EmployeeManagementASPAngular.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\wamp64\\www\\tthale\\EmployeeManagementASPAngular\\EmployeeManagementASPAngular\\EmployeeManagementASPAngular.csproj",
+        "projectUniqueName": "C:\\wamp64\\www\\EmployeeManagementASPAngular\\EmployeeManagementASPAngular\\EmployeeManagementASPAngular\\EmployeeManagementASPAngular.csproj",
         "projectName": "EmployeeManagementASPAngular",
-        "projectPath": "C:\\wamp64\\www\\tthale\\EmployeeManagementASPAngular\\EmployeeManagementASPAngular\\EmployeeManagementASPAngular.csproj",
+        "projectPath": "C:\\wamp64\\www\\EmployeeManagementASPAngular\\EmployeeManagementASPAngular\\EmployeeManagementASPAngular\\EmployeeManagementASPAngular.csproj",
         "packagesPath": "C:\\Users\\tebogo.thale\\.nuget\\packages\\",
-        "outputPath": "C:\\wamp64\\www\\tthale\\EmployeeManagementASPAngular\\EmployeeManagementASPAngular\\obj\\",
+        "outputPath": "C:\\wamp64\\www\\EmployeeManagementASPAngular\\EmployeeManagementASPAngular\\EmployeeManagementASPAngular\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\tebogo.thale\\AppData\\Roaming\\NuGet\\NuGet.Config",
