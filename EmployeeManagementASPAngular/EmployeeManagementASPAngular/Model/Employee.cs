@@ -17,7 +17,7 @@ namespace EmployeeManagementASPAngular.Model
         [Column(TypeName = "nvarchar(100)")]
         public string EmployeePosition { get; set; } = "";
 
-        [Column(TypeName ="int(50)")]
+        [Column(TypeName ="int")]
         public int EmployeeManagerId { get; set; } = 0;
 
     }
